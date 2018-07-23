@@ -1,8 +1,8 @@
 answer="yes"
-say= "Say yes or no to these questions for your PC issues"
+say= "Say yes or no to these questions for your PC issues\n"
 print("Does your computer switch on?\n")
 while True:
-    issue=str(input(say))
+    issue=str(input)
     if(issue==answer):
         print("Is the switch on for socket on?")
     elif(issue==answer):
@@ -10,14 +10,14 @@ while True:
     elif(issue==answer):
         print("Is the system unit switched on?")
     else:
-        print("If not, please visit a computer technician to fix your computer")
+        print("If not, please visit a computer technician to fix your computer\n")
 
 
 statment="yes"
-say= "Say yes or no to these questions for your PC issues"
+say= "Say yes or no to these questions for your PC issues\n"
 print("Does your computer audio have any problems?\n")
 while True:
-    issue=str(input(say))
+    issue=str(input)
     if(issue==statement):
         print("Is the sound on mute?")
     elif(issue==statement):
@@ -25,14 +25,14 @@ while True:
     elif(issue==statement):
         print("Are your drivers updated?")
     else:
-        print("Please instal a different Windows version and if the issue still there, visit a computer specialist")
+        print("Please instal a different Windows version and if the issue still there, visit a computer specialist\n")
 
 
 s="yes"
-question= "Say yes or no to these questions for your PC issues"
+question= "Say yes or no to these questions for your PC issues\n"
 print("Does your computer screen issues?\n")
 while True:
-    issue=str(input(question))
+    issue=str(input)
     if(issue==s):
         print("Is the computer powered on?")
     elif(issue==s):
@@ -40,6 +40,6 @@ while True:
     elif(issue==s):
         print("Did you perhaps damage the screen?")
     else:
-        print("If no, you need to replace your screen with a new one")
+        print("If no, you need to replace your screen with a new one\n")
         break;
 
