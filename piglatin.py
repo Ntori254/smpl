@@ -1,10 +1,15 @@
+import re
 #pig latin translators
-original ="Andersen"
+original ="Zmi"
 pgy= "ay"
+pgy2 ="way"
 
 word= original.lower()
 #check for starting letter using regular expressions
 first=word[0]
-
-newword = word+first+pgy
-print(newword[1:])
+if first in 'aeiou':
+    newword = word+pgy2
+    print(newword)
+else:
+    newword=word+first+pgy
+    print(newword[1:])
