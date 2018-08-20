@@ -1,6 +1,6 @@
 import re
 #pig latin translators
-original ="Zmi"
+original ="OBIWAN"
 pgy= "ay"
 pgy2 ="way"
 
